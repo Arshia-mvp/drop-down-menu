@@ -1,0 +1,123 @@
+body{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li , nav ul li a{
+    display: inline-block;
+}
+
+.drop-down-content a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    padding: 20px;
+    margin-left: 430px;
+}
+
+nav ul li a{
+    width: 120px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li.DOG .drop-down-content , nav ul li.DOG .drop-down-content a{
+    display: block;
+}
+
+nav ul li.DOG{
+    position: relative;
+}
+
+nav ul li.DOG .drop-down-content{
+    position: absolute;
+    display: none;
+}
+
+nav ul li.DOG:hover .drop-down-content{
+    display: block;
+}
+
+nav ul li.CAT .drop-down-content , nav ul li.CAT .drop-down-content a{
+    display: block;
+}
+
+nav ul li.CAT{
+    position: relative;
+}
+
+nav ul li.CAT .drop-down-content{
+    position: absolute;
+    display: none;
+}
+
+nav ul li.CAT:hover .drop-down-content{
+    display: block;
+}
+
+
+
+nav ul li.BIRD .drop-down-content , nav ul li.BIRD .drop-down-content a{
+    display: block;
+}
+
+nav ul li.BIRD{
+    position: relative;
+}
+
+nav ul li.BIRD .drop-down-content{
+    position: absolute;
+    display: none;
+}
+
+nav ul li.BIRD:hover .drop-down-content{
+    display: block;
+}
+
+
+
+nav ul li.HORSE .drop-down-content , nav ul li.HORSE .drop-down-content a{
+    display: block;
+}
+
+nav ul li.HORSE{
+    position: relative;
+}
+
+nav ul li.HORSE .drop-down-content{
+    position: absolute;
+    display: none;
+}
+
+nav ul li.HORSE:hover .drop-down-content{
+    display: block;
+}
+
+
+
+
+nav ul li.BURGER .drop-down-content , nav ul li.BURGER .drop-down-content a{
+    display: block;
+}
+
+nav ul li.BURGER{
+    position: relative;
+}
+
+nav ul li.BURGER .drop-down-content{
+    position: absolute;
+    display: none;
+}
+
+nav ul li.BURGER:hover .drop-down-content{
+    display: block;
+}
